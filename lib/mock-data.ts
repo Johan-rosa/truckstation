@@ -3,10 +3,10 @@ import type { Vehicle } from "@/types"
 export const vehicles: Vehicle[] = [
   {
     id: "1",
-    name: "Heavy Duty Crane - Liebherr LTM 1200",
+    name: "Camión grúa - Iveco",
     type: "crane",
     images: [
-      "/placeholder.svg?height=400&width=600",
+      "/grua-iveco.png?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
@@ -24,15 +24,15 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: "2",
-    name: "Flatbed Truck - Peterbilt 379",
+    name: "Grúa Canastillas",
     type: "truck",
     images: [
-      "/placeholder.svg?height=400&width=600",
+      "/grua-canastilla-telescópica.jpeg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
     currency: "DOP",
-    pricePerDay: 19500,
+    pricePerDay: 11700,
     location: "Punta Cana",
     available: true,
     hasInsurance: false,
@@ -45,10 +45,10 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: "3",
-    name: "Mobile Crane - Grove RT9150E",
+    name: "Grúa con Rampa",
     type: "crane",
     images: [
-      "/placeholder.svg?height=400&width=600",
+      "/grua-rampa-frod-8000.jpg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
@@ -69,7 +69,7 @@ export const vehicles: Vehicle[] = [
     name: "Semi Trailer - Freightliner Cascadia",
     type: "trailer",
     images: [
-      "/placeholder.svg?height=400&width=600",
+      "/grua-plataforma-loaded.webp?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
@@ -86,10 +86,10 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: "5",
-    name: "Excavator - Caterpillar 336",
+    name: "Camión grúa - Stinger",
     type: "excavator",
     images: [
-      "/placeholder.svg?height=400&width=600",
+      "/camion-grua-stinger.png?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
@@ -109,7 +109,7 @@ export const vehicles: Vehicle[] = [
     name: "Dump Truck - Mack Granite",
     type: "truck",
     images: [
-      "/placeholder.svg?height=400&width=600",
+      "/grua-remolque.png?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
