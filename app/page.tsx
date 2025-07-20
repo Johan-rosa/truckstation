@@ -8,8 +8,12 @@ import {vehicles} from "@/lib/mock-data";
 
 export default function Home() {
   console.log(vehicles[0])
-const vehiclesCards = vehicles.map(v => {
-return <VehicleCard vehicle={v} key={v.id} />;
+  const vehiclesCards = vehicles.map(v => {
+  return( 
+    <Link key={v.id} href={`/vehicle/${v.id}`}>
+      <VehicleCard vehicle={v} key={v.id} />
+    </Link>
+  );
 });
 
   return (

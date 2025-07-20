@@ -15,7 +15,7 @@ export const vehicles: Vehicle[] = [
     location: "Santo Domingo",
     available: true,
     hasInsurance: true,
-    capacity: "200 tons",
+    capacity: "200 toneladas",
     year: 2020,
     fuelType: "Diesel",
     rating: 4.8,
@@ -71,7 +71,6 @@ export const vehicles: Vehicle[] = [
     images: [
       "/grua-plataforma-loaded.webp?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
     ],
     currency: "DOP",
     pricePerDay: 17000,
@@ -91,7 +90,6 @@ export const vehicles: Vehicle[] = [
     images: [
       "/camion-grua-stinger.png?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
     ],
     currency: "DOP",
     pricePerDay: 25000,
@@ -110,7 +108,6 @@ export const vehicles: Vehicle[] = [
     type: "truck",
     images: [
       "/grua-remolque.png?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
     currency: "DOP",
